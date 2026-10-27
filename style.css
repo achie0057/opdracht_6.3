@@ -1,0 +1,45 @@
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  font-size: 28px;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+
+
+.logo {
+  flex: 1;
+  text-align: center;
+}
+
+
+.menu {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  list-style: none;
+}
+
+
+.login {
+  flex: 1;
+  text-align: center;
+}
+
+
+a {
+  color: #2a2aee;
+  text-decoration: none;
+}
